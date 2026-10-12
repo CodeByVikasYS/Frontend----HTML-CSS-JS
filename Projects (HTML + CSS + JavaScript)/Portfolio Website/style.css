@@ -84,3 +84,40 @@
 }
 
 
+/* --------------------------------------About-Section-------------------------------- */
+
+#about-heading h2{
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+    padding-bottom:0.25rem;
+}
+
+#underLine{
+    font-size:1.5rem;
+    text-align:center;
+    padding: 0 0 0 0;
+    height:1rem;
+    margin-top:-1rem;
+    margin-bottom:1.4rem;
+    font-family: 'Inter', sans-serif;
+    color:#1877F2;
+}
+
+#aboutCont{
+    margin-top: 0.8rem;
+    
+    /* align-content:center;  ***This is the property of flext can't be used over here. */
+}
+
+#aboutCont p{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0,0 ,1);
+}
+
+#about{
+    background-color: #F2F7FA;
+    padding: 1.5rem 0 1.5rem 0;
+}
