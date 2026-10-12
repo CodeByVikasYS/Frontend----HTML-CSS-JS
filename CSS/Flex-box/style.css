@@ -1,0 +1,57 @@
+*{
+    text-align:center;
+}
+
+div{
+    height:20px;
+    width:50px;
+    border:2px dashed black;
+    display:inline-block;
+    /* flex-shrink:0; */
+}
+
+#container{
+    width:900px;
+    height:400px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;  
+    /* flex-wrap:wrap;   */
+    align-items:center;
+    /* align-content:flex-end; */
+
+}
+
+#box1{
+    background-color:aqua;
+    /* align-self:flex-end; */
+    /* flex-shrink:0; */
+}
+
+#box2{
+    background-color:greenyellow;
+    /* flex-shrink:0; */
+    /* align-self:flex-start; */
+    flex-grow:1;          /*  Helps when the container size is more then all the div size present in the same line so as of present now.*/
+}
+
+#box3{
+    background-color:pink;
+    /* flex-shrink:0; */
+    flex-grow:1;
+}
+
+#box4{
+    background-color:aquamarine;
+    flex-shrink:2;
+}
+
+#box5{
+    background-color:burlywood;
+    /* flex-shrink:0; */
+    /* align-self:flex-start; */
+}
+#box6{
+        background-color:blueviolet;
+        /* align-self:flex-end; */
+}

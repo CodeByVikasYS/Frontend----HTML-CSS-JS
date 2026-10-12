@@ -1,0 +1,23 @@
+*{
+    background-color: lightpink;
+}
+
+h1{
+    background-color: lightblue;
+    color:red;
+}
+
+p{
+    background-color: white;
+    color:lawngreen;
+}
+
+#h11{
+    background-color: blue;
+    color:white;
+}
+
+.hello{
+    background-color: green;
+
+}

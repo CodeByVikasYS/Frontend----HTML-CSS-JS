@@ -1,0 +1,2 @@
+media querries help us to set the responsiveness of the website.
+

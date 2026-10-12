@@ -1,0 +1,19 @@
+
+
+.mainbox{
+    background-color:black;
+    height:500px;
+    width:500px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;  /*if we want to aling the element on main axis than we use prop: justify content*/
+    align-items:center; /*If we want to aling the element aling the cross axis then we use Property: align-items*/
+}
+
+div{
+    background-color:grey;
+    height:50px;
+    width:50px;
+    
+}
+

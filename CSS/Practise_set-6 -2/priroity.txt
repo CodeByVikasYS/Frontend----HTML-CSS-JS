@@ -1,0 +1,11 @@
+Q. Which has higher priority - align-items or align-self?
+Ans: 
+
+    align-self has higher priority.
+    align-items has lower priority.
+
+
+    so align-item is applied on the flex container.
+    whereas, the align-self is applied on the flex element.
+
+    So if we write the align-item after the alin-self property than also align-self will be given higher property.

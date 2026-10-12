@@ -1,0 +1,31 @@
+1. Fontaswesome is the website from where we can get free icons.
+
+2. min-height sets the minimum height of an element.
+   It can be appplied on element like,
+   <div>
+   <section>
+   <main>
+   <article>
+   <header>
+   <footer>
+
+3. vh means Viewport Height.
+   1vh = 1% of the screen/browser window height
+   100vh = 100% of the screen height
+
+
+4.padding: 2% 6%;   ------> This means:
+  2% → padding on top and bottom
+  6% → padding on left and right
+
+5. nav img selects all <img> elements inside the <nav> element; the first element gives the location/context, and the second element is selected.
+Example:
+ nav img {
+    width: 150px;
+   }
+The above syntax sets the width of images inside <nav> to 150px.
+
+
+6. flex: 1 means the element will grow and take the available empty space inside its parent flex container.
+   
+

@@ -1,0 +1,197 @@
+/* =========================================
+   1. RESET & BASIC SETUP
+   Removes default browser spacing so our 
+   design looks the same on all browsers.
+========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding and borders in the element's total width */
+}
+
+/* =========================================
+   2. BODY & TYPOGRAPHY
+   Sets the default font and background.
+========================================= */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9fa; /* Very light gray */
+}
+
+/* Common spacing for sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #1a1a2e; /* Dark navy blue */
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* =========================================
+   3. NAVIGATION BAR
+========================================= */
+.navbar {
+    display: flex; /* Aligns logo and links side-by-side */
+    justify-content: space-between; /* Pushes logo left, links right */
+    align-items: center; /* Centers items vertically */
+    background-color: #1a1a2e;
+    padding: 20px 40px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none; /* Removes underline */
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    color: #4facfe; /* Light blue on hover */
+}
+
+/* =========================================
+   4. HERO & PAGE HEADERS
+========================================= */
+.hero, .page-header {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+/* =========================================
+   5. BUTTONS
+========================================= */
+.button {
+    display: inline-block;
+    background-color: #4facfe;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px 5px;
+    font-weight: bold;
+    border: 2px solid #4facfe;
+}
+
+.button:hover {
+    background-color: #1a1a2e;
+    border-color: #1a1a2e;
+}
+
+
+/* =========================================
+   6. CARDS (Used in Home, Services, About)
+========================================= */
+.card-container {
+    display: flex; /* Aligns cards in a row */
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allows cards to drop to the next line on small screens */
+    max-width: 1000px;
+    margin: 0 auto; /* Centers the container on the page */
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px; /* Fixed width for cards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Soft drop shadow */
+    border: 1px solid #eaeaea;
+    text-align: left; /* Aligns text inside the card to the left */
+}
+
+/* =========================================
+   7. ABOUT PAGE SPECIFICS
+========================================= */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* =========================================
+   8. CONTACT PAGE SPECIFICS
+========================================= */
+.contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.contact-info, .contact-form {
+    width: 50%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+/* =========================================
+   9. FOOTER
+========================================= */
+footer {
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* =========================================
+   10. RESPONSIVE DESIGN (Mobile Phones)
+========================================= */
+@media (max-width: 768px) {
+    /* Stack navbar items vertically on small screens */
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .navbar nav a {
+        margin: 0 10px;
+    }
+
+    /* Make contact section stack vertically instead of side-by-side */
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        width: 100%;
+    }
+}
