@@ -121,3 +121,54 @@
     background-color: #F2F7FA;
     padding: 1.5rem 0 1.5rem 0;
 }
+
+
+/* --------------------------------------My Skill-Section-------------------------------- */
+
+#mySkills{
+    margin:2rem 0 2rem 0;
+    font-family: 'Inter', sans-serif;
+}
+#mySkills h2{
+    text-align:center;
+    margin: -1rem;
+}
+
+#mySkills p{
+    color: #1877F2;
+    text-align:center;
+    font-size:24px;
+    font-family: 'Inter', sans-serif;
+
+    
+}
+#skillBoxdiv{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:1.5rem;
+}
+
+.innerSkill{
+    text-align:center;
+    border: 1.8px rgba(0, 0,0, 0.1) solid;
+    height: 8rem;
+    width: 12rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    font-family: 'Inter', sans-serif;
+}
+.skill-img{
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-img img{
+    width:100%;   /*It means like the image will take 100 % height and width of parent.*/
+    height: 100%;
+    object-fit:contain;
+}
+
