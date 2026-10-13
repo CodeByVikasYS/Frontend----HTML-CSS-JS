@@ -179,7 +179,7 @@
     background-color: #EEF5FF;
     width: 100%;
     height: 90vh;
-    padding-bottom:2rem;
+    padding-bottom:1rem;
 }
 
 #myProject{
@@ -248,4 +248,60 @@
     color:#1877F2;
     font-size:24px;
     font-family: 'Inter', sans-serif;
+}
+
+/* --------------------------------------Contact me Section-------------------------------- */
+#Contactme{
+    padding-top: 1rem;
+}
+
+#contactMe1 h2,p{
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#contactMe1 p{
+    margin: -0.9rem 0 1rem 0;
+    font-family: 'Inter', sans-serif;
+    margin-top: -0.9rem;
+    color:#1877F2;
+    font-size:24px;
+}
+
+#contactMeForm form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.contactMe1{
+    width: 20rem;
+    margin-bottom:0.5rem;
+    padding: 0.2rem 0 0.2rem 0.5rem;
+    font-size:0.6rem;
+    border: 1.5px rgba(0, 0, 0, 0.1) solid;
+    font-family: 'Inter', sans-serif;
+    border-radius: 0.2rem;
+}
+
+#textArea{
+    width:20rem;
+    height:4rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0 0 0.5rem;
+    font-size:0.6rem;
+    border: 1.5px rgba(0, 0, 0, 0.1) solid;
+    font-family: 'Inter', sans-serif;
+    border-radius: 0.2rem;
+
+}
+
+#btn{
+    width:20.5rem;
+    background-color: #1877F2;
+    border:none;
+    padding: 0.5rem 0 0.5rem 0;
+    color:#fff;
+    font-family: 'Inter', sans-serif;
+    border-radius: 0.2rem;
 }
