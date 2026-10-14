@@ -319,6 +319,7 @@
     padding-top: 0.5rem;
     background-color: #EEF5FF;
     margin-top:1.5rem;
+    font-size:  0.5rem;
 }
 
 #footerimg img{
@@ -331,5 +332,9 @@
     height:2rem;
     width:2rem;
     font-family: 'Inter', sans-serif;
+    margin-bottom:0.3rem;
+}
 
+#hereoSectionP{
+    text-align:left;
 }
