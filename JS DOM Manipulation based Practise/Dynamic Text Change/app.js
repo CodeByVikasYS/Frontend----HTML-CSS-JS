@@ -21,3 +21,4 @@ console.log(input.value);
 
 // Learning from this qusetion is that to fetch the value from the input element or any other element is that like we should use tag.value 
 // to fetch value inside it.
+
